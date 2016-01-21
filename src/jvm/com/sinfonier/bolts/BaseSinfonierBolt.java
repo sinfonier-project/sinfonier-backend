@@ -195,7 +195,7 @@ public abstract class BaseSinfonierBolt extends BaseRichBolt {
      * 
      * @param json Tuple to set up.
      */
-    public void setJSon(Map<String, Object> json) {
+    public void setJson(Map<String, Object> json) {
         this.json = json;
     }
 
