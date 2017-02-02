@@ -60,7 +60,7 @@ public class FlatJson extends BaseSinfonierBolt {
         flatJson = new HashMap<String, Object>();
         Map<String, Object> json = getJson();
         flatJson(json);
-        setJSon(flatJson);
+        setJson(flatJson);
         emit();
     }
 
